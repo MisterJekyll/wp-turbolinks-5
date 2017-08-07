@@ -13,7 +13,7 @@ define('WPTURBOLINKS5_FILE'       , __FILE__);
 define('WPTURBOLINKS5_PATH'       , realpath(plugin_dir_path(WPTURBOLINKS5_FILE)) . '/');
 define('WPTURBOLINKS5_URL'        , plugin_dir_url(WPTURBOLINKS5_FILE));
 define('WPTURBOLINKS5_LIB_URL', WPTURBOLINKS5_URL . 'js/turbolinks.min.js');
-define('WPTURBOLINKS5_MEDIAELEMENT_URL', WPTURBOLINKS5_URL . 'js/mj_wp_medialement.min.js');
+define('WPTURBOLINKS5_MEDIAELEMENT_URL', WPTURBOLINKS5_URL . 'js/mj_wp_mediaelement.min.js');
 
 /*
  * Init the Turbolinks script and fix the mediaelement not loading issues that may occur
